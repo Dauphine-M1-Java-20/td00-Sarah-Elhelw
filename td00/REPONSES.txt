@@ -95,6 +95,19 @@ Exercice 2 :
 
 3) gitk représente le fait que les deux dépôts sont synchronisés par le fait que la branche remotes/origin/master (du dépôt distant de GitHub) pointe sur la branche master (du dépôt local).
 
+5) Après exécution de la commande, le message d'erreur suivant s'affiche :
+
+To https://github.com/Dauphine-M1-Java-20/td00-Sarah-Elhelw.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Dauphine-M1-Java-20/td00-Sarah-Elhelw.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Ce message s'affiche car le dépôt local javaavance n'est pas à jour par rapport au dépôt distant, on ne peut donc pas faire de push. En effet, nous n'avons pas intégré sur le dépôt local javaavance le commit push par le dépôt local clone-de-javaavance.
+
 
 
 
