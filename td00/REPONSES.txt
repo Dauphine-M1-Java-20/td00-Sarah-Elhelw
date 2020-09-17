@@ -1,0 +1,104 @@
+EL HELW Sarah
+
+td00-maven.pdf
+
+Exercice 1 :
+
+4) Je tape la commande mvn --version. Je constate que j'ai la version Apache Maven 3.6.3.
+
+5) Le paramètre groupId identifie de façon unique notre projet parmi tous les autres projets.
+Le paramètre artifactId est le nom du jar sans version.
+
+6) Le répertoire target contient les répertoires classes, generated-sources et maven-status.
+
+8) Le class path définit le chemin d'accès au répertoire où se trouvent les classes et packages Java à exécuter.
+
+13) La propriété maven.compiler.target spécifie avec quelle JVM on veut que les classes compilées soient compatibles. On va lui donner la même valeur que pour la propriété maven.compiler.source (question 12).
+
+
+
+
+
+Exercice 2 :
+
+
+1) Un message s'affiche après exécution de la commande : 
+		no main manifest attribute, in target/td00-1.0-SNAPSHOT.jar
+
+
+
+
+
+
+Exercice 3 :
+
+
+3) Eclipse fait un remplacement automatique avec System.out.println();
+
+4) Eclipse suggère deux méthodes :
+	- toString() : String
+	- toStr() : void
+   Il est intéressant ici de constater que la méthode toString() est suggérée.
+
+5) Eclipse suggère : main - main method. En double cliquant dessus, Eclipse génère l'en-tête du main.
+
+6) Eclipse suggère :
+	- getToto() : int - Getter for 'toto'
+	- get() : void - Method stub
+	- GetField - java.io.ObjectInputStream
+   Il est intéressant ici de constater que le getter getToto() du champ toto est suggéré.
+
+7) Si on tape Alt+Shift+R, en sélectionnant:
+	- le nom de la classe : la fenêtre "Open Resource" s'ouvre. En double cliquant sur AppTest.java, le fichier s'ouvre dans Eclipse.
+	- le nom du champ toto : la fenêtre "Open Resource" s'ouvre.
+
+
+8) Le fichier de documentation de la classe String s'ouvre dans Eclipse.
+
+
+
+
+
+
+
+
+td00bis-git.pdf
+
+
+Exercice 1 :
+
+2) Les fichiers présents dans le répertoire td00 et qui ne font pas partie des sources du projet sont par exemple :
+	- les répertoires .settings, target
+	- les fichiers .classpath, .project
+
+
+
+
+
+
+
+
+
+
+Notes de la séance de TP du 17/09/2020 :
+
+
+Exercice 1 :
+
+7) Le fichier source responsable de l'affichage est dans le src/main.
+Il faut relancer la compilation pour voir s'afficher "Bonjour!".
+
+
+Exercice 2 :
+
+1) Le fichier .jar est td00-1.0-SNAPSHOT.
+
+   Il faut ajouter .jar au nom du fichier JAR.
+
+4) On relance avec mvn package.
+
+
+Exercice 3 :
+
+8) Il faut se rendre dans C:\Program Files\Java\jdk-13.0.2\lib. Se rendre sur Eclipse pour Window/Preferences...
+   Dans le src.zip, on trouve les classes que l'on peut utiliser en java.
