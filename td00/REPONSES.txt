@@ -91,6 +91,14 @@ Git nous indique donc que la modification effectuée a été un changement de 10
 
 
 
+Exercice 2 :
+
+3) gitk représente le fait que les deux dépôts sont synchronisés par le fait que la branche remotes/origin/master (du dépôt distant de GitHub) pointe sur la branche master (du dépôt local).
+
+
+
+
+
 
 
 Notes de la séance de TP du 17/09/2020 :
