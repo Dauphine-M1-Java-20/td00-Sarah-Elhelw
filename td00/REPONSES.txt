@@ -121,5 +121,6 @@ Exercice 2 :
 
 Exercice 3 :
 
-8) Il faut se rendre dans C:\Program Files\Java\jdk-13.0.2\lib. Se rendre sur Eclipse pour Window/Preferences...
+8) Il faut se rendre dans C:\Program Files\Java\jdk-13.0.2\lib. 
+   Se rendre ensuite sur Eclipse pour Window/Preferences...
    Dans le src.zip, on trouve les classes que l'on peut utiliser en java.
