@@ -17,7 +17,7 @@ public class PrimeCollection {
 		}
 	}
 
-	private boolean isPrime(int p) {
+	public static boolean isPrime(int p) {	// isPrime() was put public to test it in the JUnit exercise.
 		for (int x = 2; x <= Math.sqrt(p); x++) {
 			if (p % x == 0) {
 				return false;

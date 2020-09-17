@@ -10,7 +10,8 @@ import junit.framework.TestSuite;
 public class PrimeCollectionTest 
     extends TestCase
 {
-    /**
+    	
+	/**
      * Create the test case
      *
      * @param testName name of the test case
@@ -34,5 +35,17 @@ public class PrimeCollectionTest
     public void testPrimeCollection()
     {
         assertTrue( true );
+    }
+    
+    public void test0IsPrime() {
+    	assertTrue(PrimeCollection.isPrime(0));
+    }
+    
+    public void testTwoIsPrime() {
+    	assertTrue(PrimeCollection.isPrime(2));
+    }
+    
+    public void test9IsNotPrime() {
+    	assertTrue(!PrimeCollection.isPrime(9));
     }
 }
