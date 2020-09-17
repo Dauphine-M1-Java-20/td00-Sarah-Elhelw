@@ -108,14 +108,24 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 Ce message s'affiche car le dépôt local javaavance n'est pas à jour par rapport au dépôt distant, on ne peut donc pas faire de push. En effet, nous n'avons pas intégré sur le dépôt local javaavance le commit push par le dépôt local clone-de-javaavance.
 
+6) Le fichier REPONSES.txt contient dorénavant les modifications effectuées dans le dépôt local clone-de-javaavance.
+Dans le graphe du répertoire, on retrouve les commits effectués sur les deux dépôts locaux (sur deux branches différentes). De plus, un nouveau commit, résultant du pull, a été crée : il s'agit d'un merge des deux branches qui réunit les deux versions de REPONSES.txt.
+
+7) Si j'avais apporté des changements sur la même ligne du fichier REPONSES.txt, j'aurais eu un merge conflict car git n'est pas dans la capacité de gérer deux mêmes modifications en un seul endroit du code : le développeur doit, à la main, gérer ce conflit en conservant l'une des deux modifications ou la combinaison des deux ou aucune des modifications. 
 
 
+
+Exercice 3 :
+
+2) On observe que les tests réussissent tous (grâce à la jauge verte affichée).
+   En modifiant testPrimeCollection(), on constate que le test unitaire échoue (grâce à la barre rouge affichée). En effet, la méthode assertTrue vérifie que la condition passée en paramètre est vraie, sinon elle lance l'erreur AssertionFailedError.
 
 
 
 
 Notes de la séance de TP du 17/09/2020 :
 
+td00-maven.pdf
 
 Exercice 1 :
 
