@@ -71,9 +71,22 @@ Exercice 1 :
 	- les répertoires .settings, target
 	- les fichiers .classpath, .project
 
+5) On observe l'affichage suivant sur la console :
 
+diff --git a/td00/src/main/java/fr/dauphine/ja/ElHelwSarah/td00/PrimeCollection.java b/td00/src/main/java/fr/dauphine/ja/ElHelwSarah/td00/PrimeCollection.java
+index 32ecc2b..542c986 100644
+--- a/td00/src/main/java/fr/dauphine/ja/ElHelwSarah/td00/PrimeCollection.java
++++ b/td00/src/main/java/fr/dauphine/ja/ElHelwSarah/td00/PrimeCollection.java
+@@ -36,7 +36,7 @@ public class PrimeCollection {
 
+        public static void main(String[] args) {
+                PrimeCollection pc = new PrimeCollection();
+-               pc.initRandom(1, 1000);
++               pc.initRandom(1, 2000);
 
+                pc.printPrimes();
+
+Git nous indique donc que la modification effectuée a été un changement de 1000 à 2000 dans la borne supérieure du générateur aléatoire.
 
 
 
