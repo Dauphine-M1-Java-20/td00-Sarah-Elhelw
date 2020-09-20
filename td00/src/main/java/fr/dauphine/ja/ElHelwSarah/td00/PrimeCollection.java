@@ -5,9 +5,9 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class PrimeCollection {
 
-	ArrayList<Integer> numbers;
+	private ArrayList<Integer> numbers;
 
-	PrimeCollection() {
+	public PrimeCollection() {
 		numbers = new ArrayList<>();
 	}
 
